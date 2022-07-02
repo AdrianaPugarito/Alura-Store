@@ -3,3 +3,44 @@
   grid-template-columns: 25% 25% 25% 25%;
   grid-template-rows: 33.33% 33.33% 33.33%; /*dividendo 100/3 que seria o 100% praticamente*/
   height: calc(100vh - 50px);/*estamos calculando el espaçp del area destaques, sabemos q nosso cabeçalho mide 50px por isso le restamos a 100hv que e la largura total da tela*/
+}
+
+.destaques__principal {
+    background-image: url('../img/fortnite.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+  /*grid-column-start e end, grid-row-start e end es para falar de onde tem que partir a img ate onde tem que ir sempre no end em ambos casos temos qu efalar um numero a mais, senão ele não preenche a ultima caixa*/
+}
+
+/*child(2) e para que ele pegue o segundop filho da class mãe destaques.
+Segundo ponto a corregir codigos repetitivos usamos atalhos chamados shorthands, exemplo sem atalhos acima*/
+.destaques__secundario:nth-child(2) {
+    background: url('../img/pubg.jpg') center / cover no-repeat;
+    grid-column: 4/5;
+    grid-row: 1/2;
+}
+
+.destaques__secundario:nth-child(3) {
+    background: url('../img/slack.png') center / cover no-repeat;
+    grid-column: 4 / 5;
+    grid-row: 2 / 3;
+
+}
+
+.destaques__secundario:nth-child(4) {
+    background: url('../img/whatsapp.png') center / cover no-repeat;
+    grid-column: 4 / 5;
+    grid-row: 3 / 4;
+}
+
+
+.destaques__secundario:nth-child(5) {
+    background: url('../img/cs-go.jpg') center / cover no-repeat;
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+}
