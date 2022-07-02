@@ -1,0 +1,5 @@
+.destaques{
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 33.33% 33.33% 33.33%; /*dividendo 100/3 que seria o 100% praticamente*/
+  height: calc(100vh - 50px);/*estamos calculando el espaçp del area destaques, sabemos q nosso cabeçalho mide 50px por isso le restamos a 100hv que e la largura total da tela*/
