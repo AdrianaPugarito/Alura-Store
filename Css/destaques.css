@@ -77,7 +77,7 @@ Segundo ponto a corregir codigos repetitivos usamos atalhos chamados shorthands,
     color: #333333;
     display: flex;
     padding: 1rem;
-    width: 50%;
+    width: 100%;
 }
 
 .destaques__categorias___link {
