@@ -1,4 +1,5 @@
 # Alura-Store
+<img src="img/Alura store capa.PNG">
 CSS Grid Layout. Criando templates separados por áreas.
 
 O CSS Grid Layout é uma ferramenta que torna o desenvolvimento do nosso site mais simples, afinal conseguimos criar templates separados por áreas.
